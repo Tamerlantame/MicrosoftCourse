@@ -14,9 +14,9 @@ namespace MicrosoftCourse.Parser
         private BinaryFunc BiOperator;
 
         
-        public string? Name { get; set; }
-        public int Precedence { get; set; }
-        public bool RightAssociative { get; set; }
+        public string? Name { get; private set; }
+        public int Precedence { get; private set; }
+        public bool RightAssociative { get; private set; }
 
         /// <summary>
         /// return IDictionary containing operators
